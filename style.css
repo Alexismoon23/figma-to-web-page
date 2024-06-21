@@ -1,5 +1,6 @@
 html {
     font-size:16px;
+    margin-top:10px;
 }
 body{
     background: #FFF8F0;
@@ -7,6 +8,8 @@ body{
     font-weight:400;
     line-height:24px;
     color:#55206D;
+    margin:0;
+    padding:0;
 }
 h1{
     font-family: "League Spartan",sans-serif;
@@ -31,4 +34,37 @@ h2{
     font-size:18px;
     font-weight:400;
     line-height:32px;
+}
+#hero-section{
+    display:flex;
+    max-width:1440px;
+    margin: 0 auto;
+}
+#hero-text{
+    width: 50%;
+    padding:32px 20PX 32px 0px;
+
+}
+#hero-image-wrapper{
+    width: 50%;
+}
+#hero-image{
+    width: 50%;
+}
+button{
+    background-color: #331E6A;
+    color:whitesmoke
+}
+.smalltext{
+    font-family:"Inter",sans-serif;
+    font-size:12px;
+    font-weight:400px;
+    line-height: 14px;
+    letter-spacing:0em;
+    text-align:left;
+    color: #000000;
+}
+
+#hi-and-name{
+    margin-top:52px;
 }
