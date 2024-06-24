@@ -19,6 +19,8 @@ h1{
     letter-spacing:0em;
     text-align:left;
     color:#190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 h2{
     font-family: "League Spartan",sans-serif;
@@ -38,7 +40,7 @@ h2{
 #hero-section{
     display:flex;
     max-width:1440px;
-    margin: 0 auto;
+    margin: 0 auto 48px auto;
 }
 #hero-text{
     width: 50%;
@@ -67,4 +69,43 @@ button{
 
 #hi-and-name{
     margin-top:52px;
+}
+#contact-button{
+height: 44px;
+width:138px;
+border-radius:4px;
+background-color: #331E6A;
+font-family: Inter;
+font-size:16px;
+font-weight:500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align:left;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#pricing-section{
+    max-width:1060px;
+    margin: 0 auto;
+    margin: 48px;
+}
+.overtitle{
+    font-family:Poppins;
+    font-size:12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    color:#2858FF;
+    text-align: center;
+    margin-bottom:8px;
+}
+.section-heading{
+    text-align:center;
+    max-width:700px;
+    margin: 0 auto;
+}
+.section-subtitle{
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
 }
