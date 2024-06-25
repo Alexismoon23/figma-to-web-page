@@ -44,7 +44,8 @@ h2{
 }
 #hero-text{
     width: 50%;
-    padding:32px 20PX 32px 0px;
+    padding:16px 20PX 32px 0px;
+    margin-top:0 auto;
 
 }
 #hero-image-wrapper{
@@ -108,4 +109,19 @@ margin-bottom: 20px;
     text-align: center;
     margin: 8px auto 48px auto;
     max-width: 700px;
+}
+#pricing-boxes{
+    display: flex;
+}
+.pricing-box{
+    width:33.33%;
+}
+.pricing-card{
+    background-color: #FFFFFF;
+    margin: 0 10px;
+    border-radius:10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding:20px;
+}
+.service-contact{
 }
