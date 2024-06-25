@@ -123,5 +123,9 @@ margin-bottom: 20px;
     box-shadow: 6px 2px 25px -9px #0000001A;
     padding:20px;
 }
-.service-contact{
+.service{
+    font-family: Poppins;
+    font-size:14px;
+    font-weight:50px;
+    line-height: 21px;
 }
